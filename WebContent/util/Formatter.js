@@ -8,7 +8,7 @@ sap.ui.demo.myFiori.util.Formatter = {
 		"P" : "Success",
 		"N" : "Warning"
 	},
-
+	// just testing my first git commit
 	statusText : function(value) {
 		var bundle = this.getModel("i18n").getResourceBundle();
 		return bundle.getText("StatusText" + value, "?");
